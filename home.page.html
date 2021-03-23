@@ -1,0 +1,63 @@
+<ion-header >
+  <ion-toolbar> 
+    <ion-title class="ion-text-center">Home </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <p class="ion-text-center">
+    <img src="assets/logobayu.jpg" width="50%">
+  </p>
+  <p> Welcome to Bayu Restaurant. This Restaurant has been operated since 1998. 
+    We serve you the best food in town </p>
+
+  
+
+  <ion-grid fixed>
+    <ion-row>
+      <ion-col size="6">
+        <ion-button [routerLink]="['/food']" routerLinkActive="router-link-active"  expand="block" fill="clear">
+          <ion-icon slot="end" name="pizza-outline"></ion-icon>
+        Food
+        </ion-button>
+      </ion-col>
+
+     
+
+      <ion-col size="6">
+        <ion-button [routerLink]="['/drinks']" routerLinkActive="router-link-active" expand="block" fill="clear">
+          <ion-icon slot="end" name="beer-outline"></ion-icon>
+        Drinks
+        </ion-button>
+      </ion-col>
+    </ion-row>
+&nbsp;
+   
+      <ion-row>
+        <ion-col size="6">
+          <ion-button [routerLink]="['/snacks']" routerLinkActive="router-link-active"  expand="block" fill="clear">
+            <ion-icon slot="end" name="fast-food-outline"></ion-icon>
+          Snacks
+          </ion-button>
+        </ion-col>
+
+    
+        <ion-col size="6">
+          <ion-button [routerLink]="['/favourite']" routerLinkActive="router-link-active"  expand="block" fill="clear">
+            <ion-icon slot="end" name="star-outline"></ion-icon>
+          Favourite
+          </ion-button>
+        </ion-col>
+    </ion-row>
+
+   &nbsp;
+    <ion-row>
+      <ion-col size="6" >
+        <ion-button [routerLink]="['/order']" routerLinkActive="router-link-active"  expand="block" fill="clear">
+          <ion-icon slot="end" name="restaurant-outline"></ion-icon>
+        Order
+        </ion-button>
+        </ion-col>
+        </ion-row>
+  </ion-grid>
+</ion-content>

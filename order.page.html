@@ -1,0 +1,118 @@
+<ion-header>
+  <ion-toolbar color="primary">
+  <ion-buttons slot="start">
+  <ion-back-button></ion-back-button>
+  </ion-buttons>
+  <ion-title class="ion-text-center">Order</ion-title>
+  </ion-toolbar>
+ </ion-header> <ion-content>
+  <div class="ion-padding">
+  <ion-text color="primary">
+  <p>Please order here </p>
+  </ion-text>
+&nbsp;
+
+  <ion-item>
+  <ion-label position="floating">Food</ion-label>
+  <ion-select value="Food">
+    <ion-select-option value="Nasi Tomato">Nasi Tomato</ion-select-option>
+    <ion-select-option value="Nasi Ayam">Nasi Ayam</ion-select-option>
+    <ion-select-option value="Nasi Ayam Penyet">Nasi Ayam Penyet</ion-select-option>
+    <ion-select-option value="Nasi Lemak Ayam">Nasi Lemak Ayam</ion-select-option>
+    <ion-select-option value="Lamb Shank">Lamb Shank</ion-select-option>
+    <ion-select-option value="Chicken Chop">Chicken Chop </ion-select-option>
+  </ion-select>
+  </ion-item>
+
+  &nbsp;
+
+  <ion-item>
+  <ion-label position="floating">Drinks</ion-label>
+  <ion-select value="Drinks">
+    <ion-select-option value="Teh O Ais">Teh O Ais</ion-select-option>
+    <ion-select-option value="Teh Ais">Teh Ais </ion-select-option>
+    <ion-select-option value="Milo Ais">Milo Ais</ion-select-option>
+    <ion-select-option value="Sirap Bandung">Sirap Bandung</ion-select-option>
+    <ion-select-option value="ABC">ABC</ion-select-option>
+    <ion-select-option value="Fruit Juice">Fruit Juice </ion-select-option>
+  </ion-select>
+  </ion-item>
+
+  &nbsp;
+  
+  <ion-item>
+    <ion-label position="floating">Snacks</ion-label>
+    <ion-select value="Snacks">
+      <ion-select-option value="Keropok Lekor">Keropok Lekor</ion-select-option>
+      <ion-select-option value="French Fries">French Fries </ion-select-option>
+      <ion-select-option value="Mushroom Soup">Mushroom Soup</ion-select-option>
+      <ion-select-option value="Nachos ">Nachos</ion-select-option>
+      <ion-select-option value="Brownies">Brownies</ion-select-option>
+      <ion-select-option value="Sandwiches">Sandwiches </ion-select-option>
+    </ion-select>
+  </ion-item>
+
+  &nbsp;
+
+  <ion-item>
+    <ion-label position="floating">Favourite</ion-label>
+    <ion-select value="Favourite">
+      <ion-select-option value="Pasta">Pasta</ion-select-option>
+      <ion-select-option value="Mac and Cheese">Mac and Cheese </ion-select-option>
+      <ion-select-option value="Lamb Mandy">Lamb Mandy</ion-select-option>
+      <ion-select-option value="Sup Gearbox ">Sup Gearbox </ion-select-option>
+      <ion-select-option value="Eiffle Burger">Eiffle Burger</ion-select-option>
+      <ion-select-option value="Mee Kolok Sarawak">Mee Kolok Sarawak </ion-select-option>
+    </ion-select>
+  </ion-item>
+&nbsp;
+  <ion-item>
+    <ion-label position="floating">Table Number</ion-label>
+    <ion-select value="Table Number">
+      <ion-select-option value="1">1</ion-select-option>
+      <ion-select-option value="2">2</ion-select-option>
+      <ion-select-option value="3">3</ion-select-option>
+      <ion-select-option value="4">4</ion-select-option>
+      <ion-select-option value="5">5</ion-select-option>
+      <ion-select-option value="6"> 6</ion-select-option>
+      <ion-select-option value="7">7</ion-select-option>
+      <ion-select-option value="8">8</ion-select-option>
+      <ion-select-option value="9">9</ion-select-option>
+      <ion-select-option value="10">10</ion-select-option>
+      <ion-select-option value="11">11</ion-select-option>
+      <ion-select-option value="12"> 12</ion-select-option>
+      <ion-select-option value="13">13</ion-select-option>
+      <ion-select-option value="14">15</ion-select-option>
+      <ion-select-option value="16">16</ion-select-option>
+      <ion-select-option value="17">17</ion-select-option>
+      <ion-select-option value="18">18</ion-select-option>
+      <ion-select-option value="18"> 18</ion-select-option>
+      <ion-select-option value="19">19</ion-select-option>
+      <ion-select-option value="20">20</ion-select-option>
+      <ion-select-option value="21">21</ion-select-option>
+      <ion-select-option value="22">22</ion-select-option>
+      <ion-select-option value="23">23</ion-select-option>
+      <ion-select-option value="24">24 </ion-select-option>
+
+    </ion-select>
+    </ion-item>
+
+
+  &nbsp;
+&nbsp;
+
+
+  <ion-item>
+    <ion-text> If you order fruit just please state which fruit you order here 
+    &nbsp;
+      <ion-input placeholder="Orange, Kiwi, Watermelon, Carrot, Apple"></ion-input>
+
+    </ion-text>
+ </ion-item>
+ &nbsp;
+ <ion-button [routerLink]="['/receive']" routerLinkActive="router-link-active"  expand="block" color="primary">
+ <ion-icon slot="start" name="send"></ion-icon>
+ Send Order
+ </ion-button>
+ </div>
+</ion-content>

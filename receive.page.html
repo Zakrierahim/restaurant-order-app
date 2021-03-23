@@ -1,0 +1,55 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Preparing</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+<h2>Please wait patiently while preparing your food.</h2> &nbsp;
+<img src="assets/gif1.gif">
+
+<ion-list-header>
+  <ion-label>
+    Preparing
+  </ion-label>
+</ion-list-header>
+<ion-progress-bar value="0.45" buffer="0.6"></ion-progress-bar> 
+
+
+
+
+<ion-button [routerLink]="['/home']" routerLinkActive="router-link-active" class="ion-text-center">
+  Home
+  <ion-icon slot="primary" name="home-outline">
+  </ion-icon>
+</ion-button>
+
+
+<ion-fab horizontal="end" vertical="bottom" slot="fixed">
+  <ion-fab-button color="dark">
+    <ion-icon md="caret-up" ios="chevron-up-circle-outline"></ion-icon>
+  </ion-fab-button>
+  <ion-fab-list side="top">
+    <ion-fab-button color="light">
+      <ion-icon name="logo-facebook"></ion-icon>
+    </ion-fab-button>
+    <ion-fab-button color="light">
+      <ion-icon name="logo-twitter"></ion-icon>
+    </ion-fab-button>
+    <ion-fab-button color="light">
+      <ion-icon name="logo-vimeo"></ion-icon>
+    </ion-fab-button>
+    <ion-fab-button color="light">
+      <ion-icon name="logo-google"></ion-icon>
+    </ion-fab-button>
+  </ion-fab-list>
+</ion-fab>
+
+
+
+<h5>
+ visit our social media accounts to get more discount
+  </h5>
+</ion-content>
+
+
